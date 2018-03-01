@@ -2,6 +2,10 @@
 box-sizing: border-box;
 
 }
+
+.contactimage {
+    height: 50px !important;
+}
 body {
     background-image: url("../images/footer_lodyas.png");
     background-repeat: repeat;
@@ -42,7 +46,7 @@ nav ul li {
     display:inline
 }
 
-P {
+p {
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 20px;
@@ -70,6 +74,16 @@ nav a {
     margin: 0 auto;
 }
 
+.portfolio-item {
+    position: relative;
+    background-color: rgba(rgba(0, 0, 0, 5);
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+}
+/* . Add pictures properly , Add forum styleing properly , adjust the placement of my imagees.
+} */
+
 .clearfix {
 display:block;
 clear: both;
@@ -90,3 +104,35 @@ clear: both;
     width: 270px;
     float:right;
 }
+
+
+
+#port1 {
+
+background: url('../images/picture1.jpg') cover no-repeat;
+}
+
+#port2 {
+
+    background-image: url('../images/picture2.jpg') cover no-repeat;
+    }
+
+    #port3 {
+
+        background: url('../images/picture3.jpg') cover no-repeat;
+        }
+
+        #port4 {
+
+            background: url('../images/picture4.jpg') cover no-repeat;
+            }
+
+            #port5 {
+
+                background: url('../images/picture1.jpg') cover no-repeat;
+                }
+
+                #port6 {
+
+                    background: url('../images/picture2.jpg') cover no-repeat;
+                    }
